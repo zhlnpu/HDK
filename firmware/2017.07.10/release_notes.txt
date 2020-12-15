@@ -1,0 +1,96 @@
+
+*******************************************************************************
+
+HDK firmware 07.10.2017
+
+*** Firmware Updates use a new transfer protocol which requires a new 
+*** lighthouse_watchman_update tool (lighthouse_watchman_update_20170710.exe) and
+*** compatible firmware update files (.fw file types)
+*** The tool will be released into the main SteamVR tools directory at a future date.
+
+Changes:
+. This release includes bootloader, application, FPGA, and fuel gauge updates
+    - Updates should be applied via USB or JTAG, not wirelessly
+    - The new bootloader must be installed first
+    - Please see update_steps.txt for more information
+. Added TS4231 ASIC (e.g. SteamVR Tracking 2.0, Sync-On-Beam) Compatibility
+    - Support enabled by setting device HWID to 0x90030006
+. Firmware Updates improvements
+    - Updates may be sent via the application (default) or bootloader
+    - Updates are staged, validated, and applied at reboot for improved reliability
+. Internal Power Management improvements
+    - Automatically shut off devices at 5% battery life
+. General reliability improvements
+
+Fixes:
+. Fix issue where wireless devices do not always show in SteamVR
+. Numerous Power Manager fixes:
+    - Device will gracefully handle missing fuel gauge, charger, or battery
+    - Device will properly charge batteries to 100%
+    - USB Host & Charger connect/disconnect detection more reliable
+. Haptics driver better handles wireless operations
+. Button & trackpad driver reliability improvements
+
+Notes:
+. Button remapping via the JSON 'firmware_config' section has changed.  Please
+  refer to the JSON Firmware Config PDF for more information
+  
+Included Firmware Files:
+. application_20170710.fw                - Application Firmware Update File 
+. bootloader_20170710.fw                 - Bootloader Firmware Update File 
+. bq27520_hcp902248nfc_20170519v0001.fw  - BQ27520 Firmware for HDK batteries (hcp902248nfc)
+. ice40_20170608v1_10.fw                 - ICE40 FPGA image supporting Sync-on-Beam
+. nrf52_20170117.fw                      - NRF52 Firmware Update File
+                                         - No change from 1.17.2017 release
+. nrf52_20170117-jtag.bin                - NRF52 JTAG image (bootloader & application)
+. hdk_20170710-jtag.bin                  - SAMG55 JTAG image (bootloader, application, & ice40)
+. bootloader_updating_app.bin            - Application used to transition from 
+                                         - older firmware to this release
+                                         - Should NOT be used for any other purpose
+
+*******************************************************************************
+
+HDK firmware 01.17.2017
+
+Changes:
+. This release includes a bootloader update.
+    - The new bootloader will be automatically installed when you call hdk_firmware_update.bat.
+    - It is strongly recommended that you perform the firmware update via USB, not wireless.
+. Can configure some aspects of the firmware using the JSON file, such as button mappings.
+    - This is entirely optional; the firmware defaults are recommended.
+    - See document "The JSON File - Firmware."
+. Firmware selects the following based upon JSON parameters.
+    - HMD vs. Controller mode (mode switch on the HDK is now ignored)
+    - Button mapping
+    - IMU rate and scale
+
+Fixes:
+. Flash red LED on missing JSON file.
+. Wireless pairing is more reliable.
+. USB detection is more reliable.
+. Improve handoff between USB and wireless transport layers.
+
+*******************************************************************************
+
+HDK firmware 10.27.2016
+
+This release includes a new bootloader.  It is recommended that you use JTAG to flash the new bootloader onto your devices, if you have access to a JTAG programmer.  The Segger J-Link Base is recommended.
+
+Fixes:
+. Radio pairing more reliable
+. Wireless JSON upload works
+. Wireless haptic pulses work
+. Improve radio reliability (change SPI timings)
+. Don't erase JSON on firmware update
+. Report radio firmware version to lighthouse_console
+. Tune IMU sensitivity for HMD vs Controller mode
+. Fix assert()s when host PC disconnects / reconnects
+. Better detection of USB plug / unplug
+. Better power-on sequence (avoid brown-out if battery dead / missing)
+. Don't send phantom trigger events to SteamVR when Hall sensor unpopulated
+. Decrease IMU latency and IMU / optical drift
+. Resize application region by 8 KB (fix overlap with calibration data)
+. Bootloader: don't hang on partition table updates
+
+
+

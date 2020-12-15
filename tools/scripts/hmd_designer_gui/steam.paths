@@ -1,0 +1,5 @@
+{
+	"hmd_designer" : ["..","..","bin","win64","hmd_designer.exe"],
+	"hmd_designer_viewer" : ["..","..","hmd_designer_viewer","win64","hmd_designer_viewer.exe"],
+	"sensor_sim_plot" : ["..", "sensor_sim_plot.py"]
+}

@@ -1,0 +1,94 @@
+HDK Firmware Updating Procedure - 2017.07.10 release
+
+ - These steps assume a device is running a firmware release dated prior to this release
+   For downgrades, please contact Support via the SteamVR Tracking HDK Forum
+   
+ - Please ensure that no other SteamVR devices are connected to the system, including 
+   wireless dongles, head-mounted displays, or other controllers
+
+ - Update status may be confirmed via running lighthouse_console's version command:
+
+      Watchman Board Model: 3
+      Tracking Firmware Version: 1499703706 watchman@runner-watchman 2017-07-10 FPGA 1.10/7/2
+      Hardware Revision: product 144 rev 3.0.4 lot 2000/0/0 0
+      VRC Version 1499703706
+      Radio Version: 1482950012
+ 
+*******************************************************************************
+Updating via USB-Only Connections
+
+NOTE: For your convenience, a script automating the following 'USB-Only' update has been provided:
+      -> hdk_firmware_update.bat
+
+  1) Connect an HDK device to the PC via USB (only update one device at a time) and wait for
+      Windows to complete device enumeration
+
+  2) Open a Windows Command Prompt to this directory:
+
+      <Windows-Key> + 'R' -> cmd.exe
+      cd C:\Program Files (x86)\Steam\steamapps\common\SteamVR Tracking HDK\firmware\7.10.2017
+
+  3) (OPTIONAL) Back-up your config file via lighthouse_console:
+
+      ..\..\tools\bin\win32\lighthouse_console.exe
+      -> downloadconfig config_backup.json
+      -> exit
+
+  4) Update the bootloader by running:
+
+      lighthouse_watchman_update_20170710.exe -Mw3 bootloader_updating_app.bin
+
+  5) Program the new application:
+
+      lighthouse_watchman_update_20170710.exe --target=application application_20170710.fw
+
+  6) Program the FPGA image:
+
+      lighthouse_watchman_update_20170710.exe --target=ice40 ice40_20170608v1_10.fw
+      
+  7) (OPTIONAL, No change from 1.17.2017) Program the Radio image:
+
+      lighthouse_watchman_update_20170710.exe --target=nrf52 nrf52_20170117.fw
+
+  8) Program the BQ27520 image:
+
+      lighthouse_watchman_update_20170710.exe --target=bq27520 bq27520_hcp902248nfc_20170519v0001.fw
+      
+      NOTE: The tool will exit quickly, but the device will take approximately 15 seconds to update.
+
+
+*******************************************************************************
+Updating via JTAG & USB Connections
+
+NOTE: JTAG programming will erase your JSON config file.
+
+  1) Open a Windows Command Prompt to this directory:
+
+      <Windows-Key> + 'R' -> cmd.exe
+      cd C:\Program Files (x86)\Steam\steamapps\common\SteamVR Tracking HDK\firmware\7.10.2017
+
+  2) Download your config file via lighthouse_console:
+
+      ..\..\tools\bin\win32\lighthouse_console.exe
+      -> downloadconfig config_backup.json
+      -> exit
+
+  3) Program the JTAG image via your specific programmer's instructions:
+  
+      hdk_20170710-jtag.bin
+      
+  7) (OPTIONAL, No change from 1.17.2017) Program the Radio image:
+
+      lighthouse_watchman_update_20170710.exe --target=nrf52 nrf52_20170117.fw
+
+  5) Program the BQ27520 image:
+
+      lighthouse_watchman_update_20170710.exe --target=bq27520 bq27520_hcp902248nfc_20170519v0001.fw
+      
+      NOTE: The tool will exit quickly, but the device will take approximately 15 seconds to update.
+
+  6) Upload your config file via lighthouse_console:
+
+      ..\..\tools\bin\win32\lighthouse_console.exe
+      -> uploadconfig config_backup.json
+      -> exit  

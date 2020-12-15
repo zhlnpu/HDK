@@ -1,0 +1,1 @@
+{"view2D": true, "view3D": true, "viewSCAD": true, "/generate": true, "projectName": "interpreting_results", "permutations": 1, "/model": "", "/obstacles": ["mask.stl"], "/sensors": "hmd.stl", "browseFolder": "", "/nsensors": 32}

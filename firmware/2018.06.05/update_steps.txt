@@ -1,0 +1,103 @@
+HDK Firmware Updating Procedure - 2018.06.05 release
+
+ - These steps assume a device is running a firmware release dated 2017.07.10 or newer
+   For downgrades, please contact Support via the SteamVR Tracking HDK Forum
+
+ - Please ensure that no other SteamVR devices are connected to the system, including 
+   wireless dongles, head-mounted displays, or other controllers
+
+ - Update status may be confirmed via running lighthouse_console's version command:
+
+      Watchman Board Model: 3
+      Watchman Version: 1528232393 watchman@runner-watchman 2018-06-05 FPGA 531(2.19/7/2) BL 1528232393
+      Hardware Revision: 0x90030004 product 144 rev 3.0.4 lot 2000/0/0 0
+      VRC Version 1528232393
+      Radio Version: 1518811657
+
+*******************************************************************************
+Updating via USB-Only Connections
+
+NOTE: For your convenience, a script automating the following 'USB-Only' update has been provided:
+      -> hdk_firmware_update.bat
+
+  1) Connect an HDK device to the PC via USB (only update one device at a time) and wait for
+      Windows to complete device enumeration
+
+  2) Open a Windows Command Prompt to this directory:
+
+      <Windows-Key> + 'R' -> cmd.exe
+      cd C:\Program Files (x86)\Steam\steamapps\common\SteamVR Tracking HDK\firmware\2018.06.05
+
+  3) (OPTIONAL) Back-up your config file via lighthouse_console:
+
+      ..\..\tools\bin\win32\lighthouse_console.exe
+      -> downloadconfig config_backup.json
+      -> exit
+
+  4) Program the new application:
+
+      ..\..\tools\bin\win32\lighthouse_watchman_update.exe --target=application application_20180605.fw
+
+  5) Program the new bootloader:
+
+      ..\..\tools\bin\win32\lighthouse_watchman_update.exe --target=bootloader bootloader_20180605.fw
+
+  6) Program the FPGA image:
+
+      ..\..\tools\bin\win32\lighthouse_watchman_update.exe --target=ice40 ice40cm_20180123v2_19.fw
+      
+  7) Program the Radio image:
+
+      ..\..\tools\bin\win32\lighthouse_watchman_update.exe --target=nrf52 nrf52_20170117.fw
+
+      OR for designs utilizing TS4231 ASICs & Sync-On-Beam:
+
+      ..\..\tools\bin\win32\lighthouse_watchman_update.exe --target=nrf52 nrf52_20180215v6.fw
+
+  8) (OPTIONAL, No change since 7.10.2017) Program the BQ27520 image:
+
+      ..\..\tools\bin\win32\lighthouse_watchman_update.exe --target=bq27520 bq27520_hcp902248nfc_20170519v0001.fw
+      
+      NOTES: The tool will exit quickly, but the device will take approximately 15 seconds to update.
+             If you are observing the UART stream, several LED drop event messages are expected and acceptable.
+
+*******************************************************************************
+Updating via JTAG & USB Connections
+
+NOTE: JTAG programming will erase your JSON config file.
+
+  1) Open a Windows Command Prompt to this directory:
+
+      <Windows-Key> + 'R' -> cmd.exe
+      cd C:\Program Files (x86)\Steam\steamapps\common\SteamVR Tracking HDK\firmware\2018.06.05
+
+  2) Download your config file via lighthouse_console:
+
+      ..\..\tools\bin\win32\lighthouse_console.exe
+      -> downloadconfig config_backup.json
+      -> exit
+
+  3) Program the JTAG image via your specific programmer's instructions:
+  
+      hdk_20180605-jtag.bin
+      
+  3) Program the Radio image via your specific programmer's instructions:
+
+      nrf52_20170117-jtag.bin
+
+      OR for designs utilizing TS4231 ASICs & Sync-On-Beam:
+      
+      nrf52_20180215v6-jtag.bin
+
+  5) (OPTIONAL, No change since 7.10.2017) Program the BQ27520 image:
+
+      ..\..\tools\bin\win32\lighthouse_watchman_update.exe --target=bq27520 bq27520_hcp902248nfc_20170519v0001.fw
+      
+      NOTES: The tool will exit quickly, but the device will take approximately 15 seconds to update.
+             If you are observing the UART stream, several LED drop event messages are expected and acceptable.
+
+  6) Upload your config file via lighthouse_console:
+
+      ..\..\tools\bin\win32\lighthouse_console.exe
+      -> uploadconfig config_backup.json
+      -> exit  

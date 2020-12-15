@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPDProject version="8" oldestCompatibleVersion="7" GPDVersion="5.09.001" lastChange="8/16/2016 11:33 AM">
+    <generalProjectSettings/>
+    <chip family="04" type="03" revision="6" friendlyName="GreenPAK 3">
+        <nvmData registerLenght="512">0 14 8D B4 D8 2 8C 4 53 13 A9 89 A8 84 1A 32 69 50 0 58 7 18 0 0 0 C 80 7 28 D1 38 0 14 EB C2 D 5A 24 3 A0 85 98 2A 5A 8 0 0 E4 54 A 10 28 C0 8 A 80 1B 0 0 5A 8 0 0 A5</nvmData>
+        <checksum crc32="0x50F42A03" version="0"/>
+        <VDDItem id="0" viewMode="0" min="2.3000" max="4.3500">
+            <item id="0" caption="VDD (PIN 14)">
+                <graphics pos="(-185.68,-699.09)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+            </item>
+        </VDDItem>
+        <IOPad id="1" useCaseMode="0">
+            <item id="1" caption="PIN 1">
+                <graphics pos="(225.63,-702.31)" angle="0" flipping="0" hidden="1" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="2" useCaseMode="1">
+            <item id="2" caption="PIN 2">
+                <graphics pos="(-661.34,-171.51)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(-8.00,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">BUTTON</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="3" useCaseMode="1">
+            <item id="3" caption="PIN 3">
+                <graphics pos="(-661.34,-229.70)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(1.00,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">REGN</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="4" useCaseMode="2">
+            <item id="4" caption="PIN 4">
+                <graphics pos="(531.56,-521.22)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(-7.50,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">PWR ON</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="5" useCaseMode="3">
+            <item id="5" caption="PIN 5">
+                <graphics pos="(-661.34,-594.34)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(-7.00,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">VSYS IN</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="6" useCaseMode="0">
+            <item id="6" caption="PIN 6">
+                <graphics pos="(0.00,0.00)" angle="0" flipping="0" hidden="1" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="7" useCaseMode="3">
+            <item id="7" caption="PIN 7">
+                <graphics pos="(531.56,-584.56)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(-13.50,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">VSYS OUT</textLabel>
+            </item>
+        </IOPad>
+        <item id="8" caption="AGND (PIN 8)">
+            <graphics pos="(-78.00,-701.00)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+        </item>
+        <item id="9" caption="GND (PIN 9)">
+            <graphics pos="(-25.19,-701.21)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+        </item>
+        <IOPad id="10" useCaseMode="1">
+            <item id="10" caption="PIN 10">
+                <graphics pos="(-661.34,-284.54)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(-15.50,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">BTN SENSE</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="11" useCaseMode="2">
+            <item id="11" caption="PIN 11">
+                <graphics pos="(531.56,-174.15)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(-10.00,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">BTN OUT</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="12" useCaseMode="0">
+            <item id="12" caption="PIN 12">
+                <graphics pos="(231.47,-717.19)" angle="0" flipping="1" hidden="1" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="13" useCaseMode="2">
+            <item id="13" caption="PIN 13">
+                <graphics pos="(525.34,-369.52)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(-6.00,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">EN OUT</textLabel>
+            </item>
+        </IOPad>
+        <LUT id="14" regularShape="0" mode="0">
+            <item id="14" caption="2-bit LUT0/DFF/LATCH0">
+                <graphics pos="(286.94,-375.94)" angle="90" flipping="0" hidden="0" tOrigin="(22.29,16.69)"/>
+            </item>
+        </LUT>
+        <LUT id="15" regularShape="0" mode="0">
+            <item id="15" caption="2-bit LUT1/DFF/LATCH1">
+                <graphics pos="(-317.30,-274.67)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+                <textLabel pos="(-29.00,51.00)" angle="-90.00" textColor="#ffff00ff" backgroundColor="#14141464">MCU FORCE</textLabel>
+            </item>
+        </LUT>
+        <LUT id="16" regularShape="0" mode="2">
+            <item id="16" caption="2-bit LUT2">
+                <graphics pos="(-547.77,-361.60)" angle="90" flipping="0" hidden="0" tOrigin="(18.00,17.00)"/>
+            </item>
+        </LUT>
+        <LUT id="17" regularShape="0" mode="0">
+            <item id="17" caption="2-bit LUT3">
+                <graphics pos="(187.63,-366.93)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="18" regularShape="0" mode="0">
+            <item id="18" caption="3-bit LUT2">
+                <graphics pos="(-317.30,-365.62)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+                <textLabel pos="(-27.92,41.46)" angle="-90.00" textColor="#ffff00ff" backgroundColor="#14141464">DLY SEL</textLabel>
+            </item>
+        </LUT>
+        <LUT id="19" regularShape="0" mode="0">
+            <item id="19" caption="3-bit LUT3">
+                <graphics pos="(187.63,-184.69)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+                <textLabel pos="(-29.00,48.00)" angle="-90.00" textColor="#ffff00ff" backgroundColor="#14141464">BTN GATE</textLabel>
+            </item>
+        </LUT>
+        <item id="20" caption="3-bit LUT0/DFF/LATCH2">
+            <graphics pos="(57.32,-370.30)" angle="0" flipping="0" hidden="0" tOrigin="(22.50,10.00)"/>
+            <textLabel pos="(-4.50,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">TOGGLE</textLabel>
+        </item>
+        <item id="21" caption="3-bit LUT1/DFF/LATCH3">
+            <graphics pos="(-548.77,-464.96)" angle="0" flipping="0" hidden="0" tOrigin="(22.50,10.00)"/>
+            <textLabel pos="(-2.50,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">BTN EN</textLabel>
+        </item>
+        <LUT id="22" regularShape="0" mode="0">
+            <item id="22" caption="3-bit LUT4/Pipe Delay">
+                <graphics pos="(-16.92,-297.59)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="23" caption="A CMP0">
+            <graphics pos="(-100.00,-360.00)" angle="0" flipping="0" hidden="1" tOrigin="(22.50,25.00)"/>
+        </item>
+        <item id="24" caption="A CMP1">
+            <graphics pos="(-100.00,-280.00)" angle="0" flipping="0" hidden="1" tOrigin="(22.50,25.00)"/>
+        </item>
+        <CNTDLY id="25" externalClockFrequence="0">
+            <item id="25" caption="8-bit CNT0/DLY0">
+                <graphics pos="(-139.88,-370.52)" angle="0" flipping="0" hidden="0" tOrigin="(30.00,16.00)"/>
+                <textLabel pos="(14.50,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">0.5s</textLabel>
+            </item>
+        </CNTDLY>
+        <CNTDLY id="26" externalClockFrequence="0">
+            <item id="26" caption="8-bit CNT1/DLY1">
+                <graphics pos="(-433.94,-365.67)" angle="0" flipping="0" hidden="0" tOrigin="(30.00,16.00)"/>
+                <textLabel pos="(14.50,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">3.5s</textLabel>
+            </item>
+        </CNTDLY>
+        <CNTDLY id="27" externalClockFrequence="0">
+            <item id="27" caption="8-bit CNT3/DLY3">
+                <graphics pos="(-139.88,-279.24)" angle="0" flipping="0" hidden="0" tOrigin="(30.00,16.00)"/>
+                <textLabel pos="(8.00,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">500ms</textLabel>
+            </item>
+        </CNTDLY>
+        <CNTDLY id="28" externalClockFrequence="0">
+            <item id="28" caption="4-bit LUT0/CNT2/DLY2">
+                <graphics pos="(397.06,-379.71)" angle="0" flipping="0" hidden="0" tOrigin="(30.00,16.00)"/>
+                <textLabel pos="(11.50,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">15ms</textLabel>
+            </item>
+        </CNTDLY>
+        <item id="29" caption="OSC">
+            <graphics pos="(103.47,-699.73)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,16.00)"/>
+        </item>
+        <item id="30" caption="P DLY/FILTER">
+            <graphics pos="(350.00,-160.00)" angle="0" flipping="0" hidden="1" tOrigin="(27.50,15.00)"/>
+        </item>
+        <item id="31" caption="VREF">
+            <graphics pos="(410.00,-120.00)" angle="0" flipping="0" hidden="1" tOrigin="(17.50,10.00)"/>
+        </item>
+        <item id="32" caption="POR">
+            <graphics pos="(-128.54,-700.00)" angle="0" flipping="0" hidden="0" tOrigin="(17.50,10.00)"/>
+        </item>
+        <item id="33" caption="BG">
+            <graphics pos="(290.00,-120.00)" angle="0" flipping="0" hidden="1" tOrigin="(17.50,10.00)"/>
+        </item>
+        <item id="34" caption="P-FET Power Switch">
+            <graphics pos="(397.06,-590.56)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,22.50)"/>
+        </item>
+        <wire output="83" input="7" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="115" input="204" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="" wireState="0">
+            <points>(-601.00,-579.00); (376.00,-579.00)</points>
+        </wire>
+        <wire output="118" input="201" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="" wireState="0">
+            <points>(467.00,-579.00); (511.00,-579.00)</points>
+        </wire>
+        <wire output="114" input="205" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="AGND" wireState="1">
+            <points/>
+        </wire>
+        <wire output="119" input="6" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="" wireState="0">
+            <points>(467.00,-559.00); (501.00,-559.00); (501.00,-516.00); (511.00,-516.00)</points>
+        </wire>
+        <wire output="89" input="161" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="3" wireText="STATE" wireState="0">
+            <points>(122.00,-361.00); (132.00,-361.00); (132.00,-381.00); (26.00,-381.00); (26.00,-365.00); (36.00,-365.00)</points>
+        </wire>
+        <wire output="108" input="125" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="0" wireText="CLK/64" wireState="1">
+            <points/>
+        </wire>
+        <wire output="66" input="16" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(477.00,-364.00); (504.00,-364.00)</points>
+        </wire>
+        <wire output="31" input="124" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-262.00,-350.00); (-161.00,-350.00)</points>
+        </wire>
+        <wire output="58" input="59" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-354.00,-350.00); (-333.00,-350.00)</points>
+        </wire>
+        <wire output="108" input="123" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="0" wireText="CLK/64" wireState="1">
+            <points/>
+        </wire>
+        <wire output="90" input="60" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="1" wireText="BTN_LATCH" wireState="0">
+            <points>(-484.00,-455.00); (-343.00,-455.00); (-343.00,-364.00); (-333.00,-364.00)</points>
+        </wire>
+        <wire output="89" input="164" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="3" wireText="STATE" wireState="1">
+            <points/>
+        </wire>
+        <wire output="57" input="160" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-60.00,-355.00); (36.00,-355.00)</points>
+        </wire>
+        <wire output="89" input="47" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="3" wireText="STATE" wireState="0">
+            <points>(122.00,-361.00); (172.00,-361.00)</points>
+        </wire>
+        <wire output="4" input="46" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-601.00,-214.00); (162.00,-214.00); (162.00,-341.00); (172.00,-341.00)</points>
+        </wire>
+        <wire output="3" input="58" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-601.00,-156.00); (-353.00,-156.00); (-353.00,-337.00); (-333.00,-337.00)</points>
+        </wire>
+        <wire output="3" input="163" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-601.00,-156.00); (-580.00,-156.00); (-580.00,-449.00); (-570.00,-449.00)</points>
+        </wire>
+        <wire output="25" input="126" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-491.00,-345.00); (-455.00,-345.00)</points>
+        </wire>
+        <wire output="3" input="44" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-601.00,-156.00); (-580.00,-156.00); (-580.00,-345.00); (-569.00,-345.00)</points>
+        </wire>
+        <wire output="3" input="158" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-601.00,-156.00); (-343.00,-156.00); (-343.00,-249.00); (-333.00,-249.00)</points>
+        </wire>
+        <wire output="8" input="159" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-601.00,-269.00); (-333.00,-269.00)</points>
+        </wire>
+        <wire output="88" input="196" autoRouting="1" pen="#2dffaaff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-262.00,-259.00); (-161.00,-259.00)</points>
+        </wire>
+        <wire output="83" input="184" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="89" input="183" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="3" wireText="STATE" wireState="1">
+            <points/>
+        </wire>
+        <wire output="97" input="162" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="4" wireText="RST" wireState="0">
+            <points>(38.00,-282.00); (80.00,-282.00); (80.00,-330.00)</points>
+        </wire>
+        <wire output="97" input="165" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="4" wireText="RST" wireState="1">
+            <points/>
+        </wire>
+        <wire output="32" input="12" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(243.00,-169.00); (511.00,-169.00)</points>
+        </wire>
+        <wire output="3" input="61" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-601.00,-156.00); (172.00,-156.00)</points>
+        </wire>
+        <wire output="90" input="62" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="1" wireText="BTN_LATCH" wireState="1">
+            <points/>
+        </wire>
+        <wire output="108" input="195" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="0" wireText="CLK/64" wireState="1">
+            <points/>
+        </wire>
+        <wire output="112" input="182" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-60.00,-269.00); (-33.00,-269.00)</points>
+        </wire>
+        <wire output="87" input="140" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(348.00,-359.00); (376.00,-359.00)</points>
+        </wire>
+        <wire output="87" input="203" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(348.00,-359.00); (366.00,-359.00); (366.00,-569.00); (376.00,-569.00)</points>
+        </wire>
+        <wire output="26" input="156" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(243.00,-351.00); (270.00,-351.00)</points>
+        </wire>
+        <wire output="83" input="157" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="4" input="63" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-601.00,-214.00); (162.00,-214.00); (162.00,-183.00); (172.00,-183.00)</points>
+        </wire>
+    </chip>
+    <emulatorConfiguration version="0" friendlyName="GreenPAK Universal Tool">
+        <settings>
+            <autoApply value="1"/>
+        </settings>
+        <lastConfiguration>
+            <SaveEmulator Name="Unknown">
+                <PowerSwitch internalPower="1" externalPower="1"/>
+                <ExpansionConnector>1:1;2:1;3:1;4:1;5:0;6:1;7:1;8:0;9:1;10:0;11:-1;12:1;13:1;14:1;15:0;16:1;17:0;18:0;19:0;20:0</ExpansionConnector>
+                <TestPoints>
+                    <TPC ID="1" Type="8">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="81" GlobalLink="0"/>
+                        <GeneratorOpt GenType="5">
+                            <constantVoltageGenerator v="2657">
+                                <abstractGenerator repeat="0" repeatCount="0" shownPeriod="0" startPoint="0" stopPoint="229000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="0"/>
+                            </constantVoltageGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="2" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="87" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="3" Type="6">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="69" GlobalLink="1"/>
+                        <ButtonSettings UpSide="1" DownSide="0" LatchMode="0" DefaultConnection="0" ConnectedSide="0"/>
+                    </TPC>
+                    <TPC ID="4" Type="6">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="82" GlobalLink="1"/>
+                        <ButtonSettings UpSide="1" DownSide="0" LatchMode="0" DefaultConnection="0" ConnectedSide="0"/>
+                    </TPC>
+                    <TPC ID="5" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="84" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="6" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="89" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="7" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="85" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="8" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="73" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="9" Type="5">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="79" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="10" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="80" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="11" Type="3">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="65" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="12" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="83" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="13" Type="4">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="68" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="14" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="70" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="15" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="71" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="16" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="72" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="17" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="74" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="18" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="75" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="19" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="76" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="20" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="59" GlobalLink="1"/>
+                    </TPC>
+                </TestPoints>
+            </SaveEmulator>
+        </lastConfiguration>
+        <savedConfigurations>
+            <SaveEmulator Name="1">
+                <PowerSwitch internalPower="1" externalPower="1"/>
+                <ExpansionConnector>1:1;2:1;3:1;4:1;5:0;6:1;7:1;8:0;9:1;10:0;11:-1;12:1;13:1;14:1;15:0;16:1;17:0;18:0;19:0;20:0</ExpansionConnector>
+                <TestPoints>
+                    <TPC ID="1" Type="8">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="81" GlobalLink="0"/>
+                        <GeneratorOpt GenType="5">
+                            <constantVoltageGenerator v="2657">
+                                <abstractGenerator repeat="0" repeatCount="0" shownPeriod="0" startPoint="0" stopPoint="121000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="0"/>
+                            </constantVoltageGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="2" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="87" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="3" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="69" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(5000,1); (3000,0); (10000,1); (8000,0); (10000,1); (25000,0); (10000,1); (8000,0); (3000,1); (25000,0); (3000,1); (11000,1)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="121000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="4" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="82" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="5" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="84" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="6" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="89" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="7" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="85" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="8" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="73" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="9" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="79" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="10" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="80" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="11" Type="3">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="65" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="12" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="83" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(30000,1); (30000,1); (8000,1); (30000,0); (23000,0)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="121000" pauseState="0" prestartState="0" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="13" Type="4">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="68" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="14" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="70" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="15" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="71" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="16" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="72" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="17" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="74" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="18" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="75" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="19" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="76" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="20" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="59" GlobalLink="1"/>
+                    </TPC>
+                </TestPoints>
+            </SaveEmulator>
+            <SaveEmulator Name="2">
+                <PowerSwitch internalPower="1" externalPower="1"/>
+                <ExpansionConnector>1:1;2:1;3:1;4:1;5:0;6:1;7:1;8:0;9:1;10:0;11:-1;12:1;13:1;14:1;15:0;16:1;17:0;18:0;19:0;20:0</ExpansionConnector>
+                <TestPoints>
+                    <TPC ID="1" Type="8">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="81" GlobalLink="0"/>
+                        <GeneratorOpt GenType="5">
+                            <constantVoltageGenerator v="2657">
+                                <abstractGenerator repeat="0" repeatCount="0" shownPeriod="0" startPoint="0" stopPoint="121000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="0"/>
+                            </constantVoltageGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="2" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="87" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="3" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="69" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(5000,1); (3000,0); (10000,1); (8000,0); (10000,1); (25000,0); (10000,1); (8000,0); (3000,1); (25000,0); (3000,1); (11000,1)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="121000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="4" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="82" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="5" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="84" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="6" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="89" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="7" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="85" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="8" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="73" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="9" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="79" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="10" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="80" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="11" Type="3">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="65" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="12" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="83" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(30000,1); (30000,1); (8000,1); (30000,0); (23000,0)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="121000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="13" Type="4">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="68" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="14" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="70" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="15" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="71" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="16" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="72" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="17" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="74" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="18" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="75" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="19" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="76" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="20" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="59" GlobalLink="1"/>
+                    </TPC>
+                </TestPoints>
+            </SaveEmulator>
+            <SaveEmulator Name="3">
+                <PowerSwitch internalPower="1" externalPower="1"/>
+                <ExpansionConnector>1:1;2:1;3:1;4:1;5:0;6:1;7:1;8:0;9:1;10:0;11:-1;12:1;13:1;14:1;15:0;16:1;17:0;18:0;19:0;20:0</ExpansionConnector>
+                <TestPoints>
+                    <TPC ID="1" Type="8">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="81" GlobalLink="0"/>
+                        <GeneratorOpt GenType="5">
+                            <constantVoltageGenerator v="2657">
+                                <abstractGenerator repeat="0" repeatCount="0" shownPeriod="0" startPoint="0" stopPoint="121000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="0"/>
+                            </constantVoltageGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="2" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="87" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="3" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="69" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(5000,1); (3000,0); (10000,1); (8000,0); (10000,1); (25000,0); (10000,1); (8000,0); (3000,1); (25000,0); (3000,1); (11000,1)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="121000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="4" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="82" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="5" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="84" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="6" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="89" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="7" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="85" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="8" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="73" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="9" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="79" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="10" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="80" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="11" Type="3">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="65" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="12" Type="6">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="83" GlobalLink="1"/>
+                        <ButtonSettings UpSide="1" DownSide="0" LatchMode="0" DefaultConnection="1" ConnectedSide="1"/>
+                    </TPC>
+                    <TPC ID="13" Type="4">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="68" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="14" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="70" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="15" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="71" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="16" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="72" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="17" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="74" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="18" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="75" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="19" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="76" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="20" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="59" GlobalLink="1"/>
+                    </TPC>
+                </TestPoints>
+            </SaveEmulator>
+            <SaveEmulator Name="11">
+                <PowerSwitch internalPower="1" externalPower="1"/>
+                <ExpansionConnector>1:1;2:1;3:1;4:1;5:0;6:1;7:1;8:0;9:1;10:0;11:-1;12:1;13:1;14:1;15:0;16:1;17:0;18:0;19:0;20:0</ExpansionConnector>
+                <TestPoints>
+                    <TPC ID="1" Type="8">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="81" GlobalLink="0"/>
+                        <GeneratorOpt GenType="5">
+                            <constantVoltageGenerator v="2657">
+                                <abstractGenerator repeat="0" repeatCount="0" shownPeriod="0" startPoint="0" stopPoint="126000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="0"/>
+                            </constantVoltageGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="2" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="87" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="3" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="69" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(5000,1); (3000,0); (10000,1); (10000,0); (10000,1); (25000,0); (10000,1); (11000,0); (3000,1); (25000,0); (3000,1); (11000,1)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="126000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="4" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="82" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="5" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="84" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="6" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="89" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="7" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="85" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="8" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="73" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="9" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="79" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="10" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="80" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="11" Type="3">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="65" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="12" Type="6">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="83" GlobalLink="1"/>
+                        <ButtonSettings UpSide="1" DownSide="0" LatchMode="1" DefaultConnection="1" ConnectedSide="0"/>
+                    </TPC>
+                    <TPC ID="13" Type="4">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="68" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="14" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="70" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="15" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="71" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="16" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="72" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="17" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="74" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="18" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="75" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="19" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="76" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="20" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="59" GlobalLink="1"/>
+                    </TPC>
+                </TestPoints>
+            </SaveEmulator>
+            <SaveEmulator Name="gen">
+                <PowerSwitch internalPower="1" externalPower="1"/>
+                <ExpansionConnector>1:1;2:1;3:1;4:1;5:0;6:1;7:1;8:0;9:1;10:0;11:-1;12:1;13:1;14:1;15:0;16:1;17:0;18:0;19:0;20:0</ExpansionConnector>
+                <TestPoints>
+                    <TPC ID="1" Type="8">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="81" GlobalLink="0"/>
+                        <GeneratorOpt GenType="5">
+                            <constantVoltageGenerator v="2657">
+                                <abstractGenerator repeat="0" repeatCount="0" shownPeriod="0" startPoint="0" stopPoint="127000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="0"/>
+                            </constantVoltageGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="2" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="87" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="3" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="69" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(5000,1); (3000,0); (10000,1); (10000,0); (10000,1); (25000,0); (10000,1); (12000,0); (3000,1); (25000,0); (3000,1); (11000,1)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="127000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="4" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="82" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(10000,1); (6000,0); (30000,1); (23000,0); (5000,0); (30000,0); (22000,1)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="127000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="5" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="84" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="6" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="89" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="7" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="85" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="8" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="73" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="9" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="79" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="10" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="80" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="11" Type="3">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="65" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="12" Type="6">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="83" GlobalLink="1"/>
+                        <ButtonSettings UpSide="1" DownSide="0" LatchMode="1" DefaultConnection="1" ConnectedSide="0"/>
+                    </TPC>
+                    <TPC ID="13" Type="4">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="68" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="14" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="70" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="15" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="71" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="16" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="72" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="17" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="74" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="18" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="75" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="19" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="76" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="20" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="59" GlobalLink="1"/>
+                    </TPC>
+                </TestPoints>
+            </SaveEmulator>
+            <SaveEmulator Name="gen1">
+                <PowerSwitch internalPower="1" externalPower="1"/>
+                <ExpansionConnector>1:1;2:1;3:1;4:1;5:0;6:1;7:1;8:0;9:1;10:0;11:-1;12:1;13:1;14:1;15:0;16:1;17:0;18:0;19:0;20:0</ExpansionConnector>
+                <TestPoints>
+                    <TPC ID="1" Type="8">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="81" GlobalLink="0"/>
+                        <GeneratorOpt GenType="5">
+                            <constantVoltageGenerator v="2657">
+                                <abstractGenerator repeat="0" repeatCount="0" shownPeriod="0" startPoint="0" stopPoint="127000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="0"/>
+                            </constantVoltageGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="2" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="87" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="3" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="69" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(5000,1); (3000,0); (10000,1); (10000,0); (10000,1); (23000,0); (7000,1); (12000,0); (11000,1); (23000,0); (2000,1); (11000,1)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="127000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="4" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="82" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(10000,1); (6000,0); (30000,1); (23000,0); (5000,0); (20000,0); (22000,1)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="127000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="5" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="84" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="6" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="89" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="7" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="85" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="8" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="73" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="9" Type="5">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="79" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="10" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="80" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="11" Type="3">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="65" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="12" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="83" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(30000,1); (30000,1); (23000,1); (30000,0)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="127000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="13" Type="4">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="68" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="14" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="70" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="15" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="71" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="16" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="72" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="17" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="74" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="18" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="75" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="19" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="76" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="20" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="59" GlobalLink="1"/>
+                    </TPC>
+                </TestPoints>
+            </SaveEmulator>
+            <SaveEmulator Name="gen2">
+                <PowerSwitch internalPower="1" externalPower="1"/>
+                <ExpansionConnector>1:1;2:1;3:1;4:1;5:0;6:1;7:1;8:0;9:1;10:0;11:-1;12:1;13:1;14:1;15:0;16:1;17:0;18:0;19:0;20:0</ExpansionConnector>
+                <TestPoints>
+                    <TPC ID="1" Type="8">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="81" GlobalLink="0"/>
+                        <GeneratorOpt GenType="5">
+                            <constantVoltageGenerator v="2657">
+                                <abstractGenerator repeat="0" repeatCount="0" shownPeriod="0" startPoint="0" stopPoint="121000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="0"/>
+                            </constantVoltageGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="2" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="87" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="3" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="69" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(5000,1); (3000,0); (10000,1); (10000,0); (10000,1); (23000,0); (7000,1); (12000,0); (5000,1); (23000,0); (2000,1); (11000,1)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="121000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="4" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="82" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(10000,1); (6000,0); (30000,1); (23000,0); (5000,0); (20000,0); (22000,1)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="121000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="5" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="84" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="6" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="89" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="7" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="85" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="8" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="73" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="9" Type="5">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="79" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="10" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="80" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="11" Type="3">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="65" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="12" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="83" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(30000,1); (30000,1); (23000,1); (30000,0)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="121000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="13" Type="4">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="68" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="14" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="70" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="15" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="71" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="16" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="72" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="17" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="74" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="18" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="75" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="19" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="76" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="20" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="59" GlobalLink="1"/>
+                    </TPC>
+                </TestPoints>
+            </SaveEmulator>
+            <SaveEmulator Name="gen3">
+                <PowerSwitch internalPower="1" externalPower="1"/>
+                <ExpansionConnector>1:1;2:1;3:1;4:1;5:0;6:1;7:1;8:0;9:1;10:0;11:-1;12:1;13:1;14:1;15:0;16:1;17:0;18:0;19:0;20:0</ExpansionConnector>
+                <TestPoints>
+                    <TPC ID="1" Type="8">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="81" GlobalLink="0"/>
+                        <GeneratorOpt GenType="5">
+                            <constantVoltageGenerator v="2657">
+                                <abstractGenerator repeat="0" repeatCount="0" shownPeriod="0" startPoint="0" stopPoint="229000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="0"/>
+                            </constantVoltageGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="2" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="87" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="3" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="69" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(10000,1); (4000,0); (20000,1); (20000,0); (20000,1); (30000,0); (20000,0); (10000,1); (20000,0); (20000,1); (30000,0); (20000,0); (5000,1)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="229000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="4" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="82" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(18000,1); (12000,0); (30000,1); (30000,1); (30000,0); (30000,0); (27000,0); (5000,1)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="229000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="5" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="84" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="6" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="89" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="7" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="85" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="8" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="73" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="9" Type="5">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="79" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="10" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="80" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="11" Type="3">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="65" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="12" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="83" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(30000,1); (30000,1); (30000,1); (30000,1); (30000,1); (10000,1); (30000,0); (20000,0); (10000,0)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="229000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="13" Type="4">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="68" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="14" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="70" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="15" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="71" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="16" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="72" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="17" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="74" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="18" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="75" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="19" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="76" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="20" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="59" GlobalLink="1"/>
+                    </TPC>
+                </TestPoints>
+            </SaveEmulator>
+            <SaveEmulator Name="gen4">
+                <PowerSwitch internalPower="1" externalPower="1"/>
+                <ExpansionConnector>1:1;2:1;3:1;4:1;5:0;6:1;7:1;8:0;9:1;10:0;11:-1;12:1;13:1;14:1;15:0;16:1;17:0;18:0;19:0;20:0</ExpansionConnector>
+                <TestPoints>
+                    <TPC ID="1" Type="8">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="81" GlobalLink="0"/>
+                        <GeneratorOpt GenType="5">
+                            <constantVoltageGenerator v="2657">
+                                <abstractGenerator repeat="0" repeatCount="0" shownPeriod="0" startPoint="0" stopPoint="220000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="0"/>
+                            </constantVoltageGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="2" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="87" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="3" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="69" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(10000,1); (4000,0); (20000,1); (20000,0); (20000,1); (30000,0); (20000,0); (10000,1); (20000,0); (9000,1); (30000,0); (20000,0); (5000,1)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="220000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="4" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="82" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(18000,1); (12000,0); (30000,1); (30000,1); (30000,0); (30000,0); (27000,0); (5000,1)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="220000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="5" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="84" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="6" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="89" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="7" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="85" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="8" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="73" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="9" Type="5">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="79" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="10" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="80" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="11" Type="3">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="65" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="12" Type="7">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="83" GlobalLink="1"/>
+                        <GeneratorOpt GenType="2">
+                            <logicSequenceGenerator mode="0">
+                                <levels>(30000,1); (30000,1); (30000,1); (30000,1); (30000,1); (10000,1); (30000,0); (20000,0); (10000,0)</levels>
+                                <abstractGenerator repeat="1" repeatCount="2" shownPeriod="0" startPoint="0" stopPoint="220000" pauseState="0" prestartState="1" outputState="12" prestartDelay="0" endState="0" link="1"/>
+                            </logicSequenceGenerator>
+                        </GeneratorOpt>
+                    </TPC>
+                    <TPC ID="13" Type="4">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="68" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="14" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="70" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="15" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="71" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="16" Type="1">
+                        <BaseOption LEDEnable="1" LEDInvertion="0" HotKey="72" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="17" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="74" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="18" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="75" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="19" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="76" GlobalLink="1"/>
+                    </TPC>
+                    <TPC ID="20" Type="1">
+                        <BaseOption LEDEnable="0" LEDInvertion="0" HotKey="59" GlobalLink="1"/>
+                    </TPC>
+                </TestPoints>
+            </SaveEmulator>
+        </savedConfigurations>
+    </emulatorConfiguration>
+    <projectData>
+        <specs>
+            <lastModify lastModifyValue="21.07.2016 16:08:29"/>
+            <vddSpecs vddMin="2.3" vddTyp="3.3" vddMax="4.35"/>
+            <vdd2Specs/>
+            <tempSpecs tempMin="10" tempTyp="25" tempMax="85"/>
+        </specs>
+        <projectDataFields>
+            <intDataField name="Silego&#10;Part Number:" id="1" value="6"/>
+            <textLineDataField name="Customer&#10;Name:" id="2" text=""/>
+            <textLineDataField name="Customer&#10;Project Name:" id="3" text=""/>
+            <textLineDataField name="Customer&#10;Project Number:" id="4" text=""/>
+            <textLineDataField name="Customer&#10;Version Number:" id="5" text=""/>
+            <multiTextLineDataField>
+                <textLineDataField name="Notes:" id="6" text=""/>
+            </multiTextLineDataField>
+        </projectDataFields>
+    </projectData>
+    <printEditorState data="&lt;?xml version=&quot;1.0&quot;?&gt;&#10;&lt;state&gt;&#10;    &lt;info version=&quot;2&quot;/&gt;&#10;    &lt;blocks&gt;&#10;        &lt;block name=&quot;2-L0&quot; x=&quot;2694.15&quot; y=&quot;864.938&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;2-L2&quot; x=&quot;183.563&quot; y=&quot;1105.4&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;2-bit LUT1&quot; x=&quot;584.53&quot; y=&quot;1529.66&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;2-bit LUT3&quot; x=&quot;2404.63&quot; y=&quot;965.07&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;3-bit LUT2&quot; x=&quot;1001.37&quot; y=&quot;967.047&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;3-bit LUT3&quot; x=&quot;3104.38&quot; y=&quot;1806.98&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;3-bit LUT4&quot; x=&quot;1572.75&quot; y=&quot;1255.74&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;A CMP0&quot; x=&quot;2185&quot; y=&quot;1236&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;A CMP1&quot; x=&quot;2185&quot; y=&quot;2241&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;BG&quot; x=&quot;4871&quot; y=&quot;3464&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;CNT0/DLY0&quot; x=&quot;1366.23&quot; y=&quot;942.591&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;CNT1/DLY1&quot; x=&quot;408.727&quot; y=&quot;998.997&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;CNT2/DLY2&quot; x=&quot;3101.73&quot; y=&quot;931.85&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;CNT3/DLY3&quot; x=&quot;1011.46&quot; y=&quot;1452.09&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;DFF 2&quot; x=&quot;1917.65&quot; y=&quot;879.7&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;DFF 3&quot; x=&quot;405.99&quot; y=&quot;576.707&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;General settings&quot; x=&quot;-486.347&quot; y=&quot;574.91&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;OSC&quot; x=&quot;-486.099&quot; y=&quot;1008.77&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;P DLY&quot; x=&quot;5219&quot; y=&quot;3286&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;P-FET Power Switch&quot; x=&quot;3106.11&quot; y=&quot;454.44&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;PIN 1&quot; x=&quot;4296.63&quot; y=&quot;-388.31&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;PIN 10&quot; x=&quot;-483.257&quot; y=&quot;1429.13&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;PIN 11&quot; x=&quot;3629.79&quot; y=&quot;1925.18&quot; angle=&quot;0&quot; hFlip=&quot;1&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;PIN 12&quot; x=&quot;4302.47&quot; y=&quot;-403.19&quot; angle=&quot;0&quot; hFlip=&quot;1&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;PIN 13&quot; x=&quot;3631.19&quot; y=&quot;1007.26&quot; angle=&quot;0&quot; hFlip=&quot;1&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;PIN 2&quot; x=&quot;-480.673&quot; y=&quot;1969.49&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;PIN 3&quot; x=&quot;-478.783&quot; y=&quot;1689.3&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;PIN 4&quot; x=&quot;3628.78&quot; y=&quot;471.78&quot; angle=&quot;0&quot; hFlip=&quot;1&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;PIN 5&quot; x=&quot;-485.047&quot; y=&quot;379.993&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;PIN 6&quot; x=&quot;2833&quot; y=&quot;4002&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;PIN 7&quot; x=&quot;3630.66&quot; y=&quot;742.107&quot; angle=&quot;0&quot; hFlip=&quot;1&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;POR&quot; x=&quot;-137.16&quot; y=&quot;574.034&quot; angle=&quot;0&quot; hFlip=&quot;1&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;VREF&quot; x=&quot;5576&quot; y=&quot;3464&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;    &lt;/blocks&gt;&#10;    &lt;wires&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;2-L0&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;CNT2/DLY2&quot; pin=&quot;dly in&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;2992&quot; y=&quot;996&quot;/&gt;&#10;                &lt;point x=&quot;3001&quot; y=&quot;996&quot;/&gt;&#10;                &lt;point x=&quot;3062&quot; y=&quot;996&quot;/&gt;&#10;                &lt;point x=&quot;3062&quot; y=&quot;1107&quot;/&gt;&#10;                &lt;point x=&quot;3092&quot; y=&quot;1107&quot;/&gt;&#10;                &lt;point x=&quot;3102&quot; y=&quot;1107&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;2-L0&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;P-FET Power Switch&quot; pin=&quot;on&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;2992&quot; y=&quot;996&quot;/&gt;&#10;                &lt;point x=&quot;3001&quot; y=&quot;996&quot;/&gt;&#10;                &lt;point x=&quot;3066&quot; y=&quot;996&quot;/&gt;&#10;                &lt;point x=&quot;3066&quot; y=&quot;535&quot;/&gt;&#10;                &lt;point x=&quot;3096&quot; y=&quot;535&quot;/&gt;&#10;                &lt;point x=&quot;3106&quot; y=&quot;535&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;2-L2&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;CNT1/DLY1&quot; pin=&quot;dly in&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;344&quot; y=&quot;1174&quot;/&gt;&#10;                &lt;point x=&quot;353&quot; y=&quot;1174&quot;/&gt;&#10;                &lt;point x=&quot;399&quot; y=&quot;1174&quot;/&gt;&#10;                &lt;point x=&quot;409&quot; y=&quot;1174&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;2-bit LUT1&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;CNT3/DLY3&quot; pin=&quot;dly in&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;806&quot; y=&quot;1627&quot;/&gt;&#10;                &lt;point x=&quot;815&quot; y=&quot;1627&quot;/&gt;&#10;                &lt;point x=&quot;1001&quot; y=&quot;1627&quot;/&gt;&#10;                &lt;point x=&quot;1011&quot; y=&quot;1627&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;2-bit LUT3&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;2-L0&quot; pin=&quot;in0&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;2626&quot; y=&quot;1062&quot;/&gt;&#10;                &lt;point x=&quot;2635&quot; y=&quot;1062&quot;/&gt;&#10;                &lt;point x=&quot;2686&quot; y=&quot;1062&quot;/&gt;&#10;                &lt;point x=&quot;2698&quot; y=&quot;1062&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;3-bit LUT2&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;CNT0/DLY0&quot; pin=&quot;dly in&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;1262&quot; y=&quot;1118&quot;/&gt;&#10;                &lt;point x=&quot;1271&quot; y=&quot;1118&quot;/&gt;&#10;                &lt;point x=&quot;1356&quot; y=&quot;1118&quot;/&gt;&#10;                &lt;point x=&quot;1366&quot; y=&quot;1118&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;3-bit LUT3&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;PIN 11&quot; pin=&quot;in&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;3365&quot; y=&quot;1958&quot;/&gt;&#10;                &lt;point x=&quot;3374&quot; y=&quot;1958&quot;/&gt;&#10;                &lt;point x=&quot;3620&quot; y=&quot;1958&quot;/&gt;&#10;                &lt;point x=&quot;3630&quot; y=&quot;1958&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;3-bit LUT4&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;DFF 2&quot; pin=&quot;nset&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;1834&quot; y=&quot;1407&quot;/&gt;&#10;                &lt;point x=&quot;1843&quot; y=&quot;1407&quot;/&gt;&#10;                &lt;point x=&quot;2094&quot; y=&quot;1407&quot;/&gt;&#10;                &lt;point x=&quot;2094&quot; y=&quot;1149&quot;/&gt;&#10;                &lt;point x=&quot;2094&quot; y=&quot;1139&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;CNT0/DLY0&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;DFF 2&quot; pin=&quot;ck&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;1835&quot; y=&quot;1063&quot;/&gt;&#10;                &lt;point x=&quot;1844&quot; y=&quot;1063&quot;/&gt;&#10;                &lt;point x=&quot;1908&quot; y=&quot;1063&quot;/&gt;&#10;                &lt;point x=&quot;1918&quot; y=&quot;1063&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;CNT1/DLY1&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;3-bit LUT2&quot; pin=&quot;in1&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;868&quot; y=&quot;1119&quot;/&gt;&#10;                &lt;point x=&quot;877&quot; y=&quot;1119&quot;/&gt;&#10;                &lt;point x=&quot;991&quot; y=&quot;1118&quot;/&gt;&#10;                &lt;point x=&quot;1001&quot; y=&quot;1118&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;CNT2/DLY2&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;PIN 13&quot; pin=&quot;in&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;3558&quot; y=&quot;1052&quot;/&gt;&#10;                &lt;point x=&quot;3567&quot; y=&quot;1052&quot;/&gt;&#10;                &lt;point x=&quot;3621&quot; y=&quot;1052&quot;/&gt;&#10;                &lt;point x=&quot;3631&quot; y=&quot;1052&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;CNT3/DLY3&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;3-bit LUT4&quot; pin=&quot;in0&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;1504&quot; y=&quot;1517&quot;/&gt;&#10;                &lt;point x=&quot;1513&quot; y=&quot;1517&quot;/&gt;&#10;                &lt;point x=&quot;1563&quot; y=&quot;1517&quot;/&gt;&#10;                &lt;point x=&quot;1573&quot; y=&quot;1517&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;DFF 2&quot; pin=&quot;nq&quot;/&gt;&#10;            &lt;secondPin block=&quot;2-bit LUT3&quot; pin=&quot;in1&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;2275&quot; y=&quot;1008&quot;/&gt;&#10;                &lt;point x=&quot;2284&quot; y=&quot;1008&quot;/&gt;&#10;                &lt;point x=&quot;2335&quot; y=&quot;1008&quot;/&gt;&#10;                &lt;point x=&quot;2335&quot; y=&quot;1007&quot;/&gt;&#10;                &lt;point x=&quot;2395&quot; y=&quot;1007&quot;/&gt;&#10;                &lt;point x=&quot;2405&quot; y=&quot;1007&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;DFF 2&quot; pin=&quot;nq&quot;/&gt;&#10;            &lt;secondPin block=&quot;DFF 2&quot; pin=&quot;d&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;2275&quot; y=&quot;1008&quot;/&gt;&#10;                &lt;point x=&quot;2284&quot; y=&quot;1008&quot;/&gt;&#10;                &lt;point x=&quot;2313&quot; y=&quot;1008&quot;/&gt;&#10;                &lt;point x=&quot;2313&quot; y=&quot;813.333&quot;/&gt;&#10;                &lt;point x=&quot;1878&quot; y=&quot;813.333&quot;/&gt;&#10;                &lt;point x=&quot;1878&quot; y=&quot;953&quot;/&gt;&#10;                &lt;point x=&quot;1908&quot; y=&quot;953&quot;/&gt;&#10;                &lt;point x=&quot;1918&quot; y=&quot;953&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;DFF 3&quot; pin=&quot;q&quot;/&gt;&#10;            &lt;secondPin block=&quot;3-bit LUT2&quot; pin=&quot;in2&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;790&quot; y=&quot;713&quot;/&gt;&#10;                &lt;point x=&quot;799&quot; y=&quot;713&quot;/&gt;&#10;                &lt;point x=&quot;959&quot; y=&quot;713&quot;/&gt;&#10;                &lt;point x=&quot;959&quot; y=&quot;1008&quot;/&gt;&#10;                &lt;point x=&quot;991&quot; y=&quot;1008&quot;/&gt;&#10;                &lt;point x=&quot;1001&quot; y=&quot;1008&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;P-FET Power Switch&quot; pin=&quot;pwr sw on&quot;/&gt;&#10;            &lt;secondPin block=&quot;PIN 4&quot; pin=&quot;in&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;3528&quot; y=&quot;507&quot;/&gt;&#10;                &lt;point x=&quot;3537&quot; y=&quot;507&quot;/&gt;&#10;                &lt;point x=&quot;3619&quot; y=&quot;507&quot;/&gt;&#10;                &lt;point x=&quot;3629&quot; y=&quot;507&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;P-FET Power Switch&quot; pin=&quot;vout&quot;/&gt;&#10;            &lt;secondPin block=&quot;PIN 7&quot; pin=&quot;in&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;3528&quot; y=&quot;562&quot;/&gt;&#10;                &lt;point x=&quot;3537&quot; y=&quot;562&quot;/&gt;&#10;                &lt;point x=&quot;3589&quot; y=&quot;562&quot;/&gt;&#10;                &lt;point x=&quot;3589&quot; y=&quot;787&quot;/&gt;&#10;                &lt;point x=&quot;3621&quot; y=&quot;787&quot;/&gt;&#10;                &lt;point x=&quot;3631&quot; y=&quot;787&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;PIN 10&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;2-bit LUT1&quot; pin=&quot;in1&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;52&quot; y=&quot;1572&quot;/&gt;&#10;                &lt;point x=&quot;61&quot; y=&quot;1572&quot;/&gt;&#10;                &lt;point x=&quot;575&quot; y=&quot;1572&quot;/&gt;&#10;                &lt;point x=&quot;585&quot; y=&quot;1572&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;PIN 2&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;2-L2&quot; pin=&quot;in&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;54&quot; y=&quot;2128&quot;/&gt;&#10;                &lt;point x=&quot;63&quot; y=&quot;2128&quot;/&gt;&#10;                &lt;point x=&quot;142&quot; y=&quot;2128&quot;/&gt;&#10;                &lt;point x=&quot;142&quot; y=&quot;1174&quot;/&gt;&#10;                &lt;point x=&quot;174&quot; y=&quot;1174&quot;/&gt;&#10;                &lt;point x=&quot;184&quot; y=&quot;1174&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;PIN 2&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;2-bit LUT1&quot; pin=&quot;in0&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;54&quot; y=&quot;2128&quot;/&gt;&#10;                &lt;point x=&quot;63&quot; y=&quot;2128&quot;/&gt;&#10;                &lt;point x=&quot;545&quot; y=&quot;2128&quot;/&gt;&#10;                &lt;point x=&quot;545&quot; y=&quot;1682&quot;/&gt;&#10;                &lt;point x=&quot;575&quot; y=&quot;1682&quot;/&gt;&#10;                &lt;point x=&quot;585&quot; y=&quot;1682&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;PIN 2&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;3-bit LUT2&quot; pin=&quot;in0&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;54&quot; y=&quot;2128&quot;/&gt;&#10;                &lt;point x=&quot;63&quot; y=&quot;2128&quot;/&gt;&#10;                &lt;point x=&quot;929&quot; y=&quot;2128&quot;/&gt;&#10;                &lt;point x=&quot;929&quot; y=&quot;1228&quot;/&gt;&#10;                &lt;point x=&quot;991&quot; y=&quot;1228&quot;/&gt;&#10;                &lt;point x=&quot;1001&quot; y=&quot;1228&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;PIN 2&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;3-bit LUT3&quot; pin=&quot;in0&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;54&quot; y=&quot;2128&quot;/&gt;&#10;                &lt;point x=&quot;63&quot; y=&quot;2128&quot;/&gt;&#10;                &lt;point x=&quot;3064&quot; y=&quot;2128&quot;/&gt;&#10;                &lt;point x=&quot;3064&quot; y=&quot;2068&quot;/&gt;&#10;                &lt;point x=&quot;3094&quot; y=&quot;2068&quot;/&gt;&#10;                &lt;point x=&quot;3104&quot; y=&quot;2068&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;PIN 2&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;DFF 3&quot; pin=&quot;ck&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;54&quot; y=&quot;2128&quot;/&gt;&#10;                &lt;point x=&quot;63&quot; y=&quot;2128&quot;/&gt;&#10;                &lt;point x=&quot;142&quot; y=&quot;2128&quot;/&gt;&#10;                &lt;point x=&quot;142&quot; y=&quot;768&quot;/&gt;&#10;                &lt;point x=&quot;396&quot; y=&quot;768&quot;/&gt;&#10;                &lt;point x=&quot;406&quot; y=&quot;768&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;PIN 3&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;2-bit LUT3&quot; pin=&quot;in0&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;56&quot; y=&quot;1848&quot;/&gt;&#10;                &lt;point x=&quot;65&quot; y=&quot;1848&quot;/&gt;&#10;                &lt;point x=&quot;2365&quot; y=&quot;1848&quot;/&gt;&#10;                &lt;point x=&quot;2365&quot; y=&quot;1117&quot;/&gt;&#10;                &lt;point x=&quot;2395&quot; y=&quot;1117&quot;/&gt;&#10;                &lt;point x=&quot;2405&quot; y=&quot;1117&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;PIN 3&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;3-bit LUT3&quot; pin=&quot;in2&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;56&quot; y=&quot;1848&quot;/&gt;&#10;                &lt;point x=&quot;65&quot; y=&quot;1848&quot;/&gt;&#10;                &lt;point x=&quot;3094&quot; y=&quot;1848&quot;/&gt;&#10;                &lt;point x=&quot;3104&quot; y=&quot;1848&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;PIN 5&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;P-FET Power Switch&quot; pin=&quot;vin&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;-11&quot; y=&quot;480&quot;/&gt;&#10;                &lt;point x=&quot;-2&quot; y=&quot;480&quot;/&gt;&#10;                &lt;point x=&quot;3096&quot; y=&quot;480&quot;/&gt;&#10;                &lt;point x=&quot;3106&quot; y=&quot;480&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;    &lt;/wires&gt;&#10;    &lt;customText/&gt;&#10;    &lt;customFig/&gt;&#10;&lt;/state&gt;&#10;"/>
+</GPDProject>
